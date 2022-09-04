@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slides">
+        <div class="slide">
+            <div class="text text_above">3/1</div>
+            <img src="./img/slide_01.jpg" alt="slide_01">
+            <div class="text text_below">slide_01</div>
+        </div>
+        <div class="slide">
+            <div class="text text_above">3/2</div>
+            <img src="./img/slide_02.jpg" alt="slide_02">
+            <div class="text text_below">slide_02</div>
+        </div>
+        <div class="slide">
+            <div class="text text_above">3/3</div>
+            <img src="./img/slide_03.jpg" alt="slide_03">
+            <div class="text text_below">slide_03</div>
+        </div>
+        <a class="slider-btn left" onclick="showImage(-1)">❮</a>
+        <a class="slider-btn right" onclick="showImage(1)">❯</a>
+    </div>
+    <div class="dots">
+        <span class="navlink dot1" onclick="dotclick(1)"></span>
+        <span class="navlink dot2" onclick="dotclick(2)"></span>
+        <span class="navlink dot3" onclick="dotclick(3)"></span>
+    </div>
+
+    <script src="./js/main.js">
+        
+    </script>
+</body>
+
+</html>
